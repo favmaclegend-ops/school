@@ -1,0 +1,103 @@
+.sidebar {
+  height: 100%;
+  width: 70px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.8); /* Transparent white background */
+  padding-top: 20px;
+  transition: width 0.3s;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sidebar:hover {
+  width: 250px;
+}
+
+.sidebar .profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.sidebar .profile-icon {
+  font-size: 2.5rem; /* Increased icon size */
+  color: #1e90ff; /* Sky blue color for icons */
+}
+
+.sidebar .profile-name {
+  color: #1e90ff; /* Sky blue color for text */
+  display: none;
+}
+
+.sidebar:hover .profile-name {
+  display: block;
+}
+
+.sidebar h2 {
+  color: #333; /* Dark text color for contrast */
+  text-align: center;
+  display: none;
+}
+
+.sidebar:hover h2 {
+  display: block;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  flex-grow: 1;
+}
+
+.sidebar ul li {
+  padding: 8px;
+  text-align: center;
+}
+
+.sidebar ul li a {
+  color: #333; /* Dark text color for contrast */
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.sidebar ul li a:hover {
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.1
+  ); /* Transparent gray background on hover */
+}
+
+.sidebar ul li a .fa-icon {
+  font-size: 1.5rem; /* Adjusted icon size */
+  margin-right: 10px; /* Adjusted space between icon and text */
+  color: #1e90ff; /* Sky blue color for icons */
+}
+
+.sidebar ul li a .link-text {
+  font-size: 1.2rem; /* Increased text size */
+  display: none;
+}
+
+.sidebar:hover ul li a .link-text {
+  display: inline-block;
+}
+
+.sidebar .footer {
+  padding: 10px;
+  text-align: center;
+  color: #333; /* Dark text color for contrast */
+  display: none;
+}
+
+.sidebar:hover .footer {
+  display: block;
+}

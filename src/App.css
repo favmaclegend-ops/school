@@ -1,0 +1,172 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header1 {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+ 
+    transform: rotate(360deg);
+  }
+}
+.div1{
+  margin-top:50px;
+  width:fit-content;
+  height:fit-content;
+  border: 1px solid #ccc;
+  border-radius:15px;
+  padding:20px;;
+  align-items: center;
+}
+label{
+  
+  font-size: 15px;
+  margin-right: 20px;
+  
+
+
+}
+input{
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.div2{
+  margin-right:0px;
+}
+.div3{
+  margin-right:100px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+button {
+  padding:10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
+  width: auto;
+
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+.form2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#bt{
+  width: 200px;
+}
+#btw{
+  position:absolute;
+  top: 0px;
+  right: 10px;
+  cursor: pointer;
+}
+.pre{
+  position:relative;
+}
+#wel{
+  text-align: center;
+  position:absolute;
+  top: 10px;
+  display:block;
+  right:670px;
+
+ 
+}
+
+a,h3, details{
+    position: relative;
+    margin-left: 20px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    
+   
+}
+footer,header{ 
+  display: inline;
+
+}
+#bdy{
+  background-color:#dcf7ff;
+
+}
+#div5{
+  position: relative;
+}
+.div7{
+  border:transparent;
+  width: 700px;
+  height: fit-content;
+  background-color:#ffff;
+  border-radius: 10px;
+  padding: 20px;
+  position: absolute;
+  top: 70px;
+  margin-left:500px;
+}
+
+#img1{
+  padding: 10px;
+}
+p1{
+  border-left:0px ;
+}
+
+.app {
+  display: flex;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
+.full-width {
+  width: 100%;
+  padding: 0; /* Remove padding to fit content within viewport */
+}

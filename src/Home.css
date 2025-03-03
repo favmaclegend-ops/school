@@ -1,0 +1,83 @@
+.landing-page {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 0; /* Remove padding to fit content within viewport */
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    background-color: #87CEEB; /* Sky blue */
+    color: white;
+    padding: 20px,20px; /* Reduce padding */
+    width: 100%;
+    position: relative;
+    margin-top: 40px;
+    
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    width: 100%;
+}
+
+.header-text {
+    text-align: left;
+    flex: 1;
+}
+
+.header-buttons {
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.btn {
+    background-color: white;
+    color: #87CEEB; /* Sky blue */
+    border: 2px solid #87CEEB;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #206986; /* Sky blue */
+    color: white;
+}
+
+.about, .programs, .contact {
+    margin: 10px 0; /* Reduce margin */
+    width: 100%;
+    padding: 0 20px; /* Add padding to sections */
+    box-sizing: border-box; /* Ensure padding is included in width */
+}
+
+h2 {
+    color: #87CEEB; /* Sky blue */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #f4f4f4;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+.content{
+    margin: 0px;
+    padding:0px;
+}
